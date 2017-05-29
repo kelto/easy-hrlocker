@@ -1,0 +1,14 @@
+.assign-label {
+  color: black;
+}
+
+ul.snapshot-control {
+    position: fixed;;
+    top: 20%;
+    right: 10%;
+    list-style-type: none;
+}
+
+ul.snapshot-control > li {
+  margin-top: 10px;
+}
