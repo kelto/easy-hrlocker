@@ -15,7 +15,7 @@ function addUI(projectRow) {
   let element = createAssignElement();
   projectRow.insertBefore(element, projectRow.firstChild);
   element.onclick = function() {
-    cleanProject();
+    clearProject();
     let hourWorked = getHourWorked();
     getAll(projectRow, "td > input").forEach((input, index) => input.value = hourWorked[index]);
   }

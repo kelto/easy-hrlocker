@@ -7,7 +7,7 @@ function getHourWorked() {
   return getAll(document.querySelectorAll('table')[0], 'tbody > tr:nth-last-child(2) td').slice(1).map(e => e.innerText);
 }
 
-function cleanProject() {
+function clearProject() {
   var projectTable = document.querySelectorAll('table')[1];
   getAll(projectTable, "td > input").forEach(e => e.value = "");
 }
