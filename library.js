@@ -1,6 +1,6 @@
 
 function getAll(element, selector) {
-  return Array.prototype.slice.call(element.querySelectorAll(selector));
+  return Array.from(element.querySelectorAll(selector));
 }
 
 function getHourWorked() {
